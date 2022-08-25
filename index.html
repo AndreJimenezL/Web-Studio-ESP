@@ -1,16 +1,16 @@
-index.html
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width", initial-scale="1">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
         <title>WebStudio</title>
     </head>
     <body>
         <header>
             <nav>
                 <ul>
-                    <li><img src=""></li>
+                    <li><a href="#">WebStudio</a></li>
                     <li><a href="#">Estudio</a></li>
                     <li><a href="#">Portafolio</a></li>
                     <li><a href="#">Contactos</a></li>
@@ -18,9 +18,75 @@ index.html
             </nav>
         </header>
         <section>
-            <div id="banner"
-                <h1>SOLUCIONES EFICACES PARA TU NEGOCIO</h1>
-            </div>
+            <h1>SOLUCIONES EFICACES PARA TU NEGOCIO</h1>
+        </section>
+        <section>
+            <table>
+                <!-- 
+                    Etiqueta de inicio de tabla <table></table>
+                    Etiqueta de head de tabla es <thead></thead>
+                    Etiqueta de titulo es <th></th>
+                    Etiquetas para filas es <tr></tr>
+                    Etiqueta para columnas <td></td>
+                -->
+                <thead>
+                    <tr>
+                        <th>Número de tren</th>
+                        <th>Ruta </th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>    
+                <tbody>
+                    <tr>
+                        <td>433</td>
+                        <td>Kiev-Kovel</td>
+                        <td>5 horas</td>
+                    </tr>
+                    <tr>
+                        <td>701</td>
+                        <td>Járkov - Dnipro</td>
+                        <td>7 horas</td>
+                    </tr>
+                    <tr>
+                        <td>258</td>
+                        <td>Lviv - Odessa</td>
+                        <td>4 horas</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!--tabla sin diseño
+                <table>
+                </table>
+             -->
+
+            <table>
+                <thead>
+                    <tr>
+                        <th rowspan="2">Servicio de la nube</th>
+                        <th colspan="3">Uso</th>
+                    </tr>
+                    <tr>
+                        <th>Usuarios</th>
+                        <th>visitas</th>
+                        <th>Volumen</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Google</td>
+                        <td>12000</td>
+                        <td>307000</td>
+                        <td>1000 Tb</td>
+                    </tr>
+                    <tr>
+                        <td>Amazon</td>
+                        <td>9000</td>
+                        <td>200500</td>
+                        <td>800 Tb</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </body>
 </html>
